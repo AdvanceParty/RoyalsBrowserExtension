@@ -1,0 +1,22 @@
+{
+  "name": "Royals Toolbox",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Useful inks and resources for Royals.",
+  "homepage_url": "http://www.theroyals.com.au",
+  "icons": {
+    "16": "images/icons/icon16.png",
+    "48": "images/icons/icon48.png",
+    "128": "images/icons/icon128.png"
+  },
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "images/icons/icon19.png",
+    "default_title": "The Royals Toolbox",
+    "default_popup": "html/popup.html"
+  },
+  "permissions": ["tabs"]
+}

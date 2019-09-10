@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 300px;
+
+  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  line-height: 1.7em;
+}
+
+footer {
+  overflow: hidden;
+  /* width: 100%; */
+  padding: 5px 1em 10px;
+  background-color: red;
+  background-image: url("../images/we_are_royals.png");
+  background-position: 50% 5px;
+  background-size: auto 20px;
+  background-repeat: no-repeat;
+  text-indent: -500%;
+  mix-blend-mode: exclusion;
+}
+
+main {
+  padding: 1em 1em 2em;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+ul {
+  padding: 0;
+}
