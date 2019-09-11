@@ -16,7 +16,7 @@
   "browser_action": {
     "default_icon": "images/icons/icon19.png",
     "default_title": "The Royals Toolbox",
-    "default_popup": "html/popup.html"
+    "default_popup": "html/links.html"
   },
   "permissions": ["tabs"]
 }
