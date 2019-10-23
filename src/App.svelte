@@ -1,21 +1,23 @@
 <script>
   import Weblink from "./components/Weblink.svelte";
-  const handleClick = e => {
-    chrome.tabs.create({ url: e.target.href });
-    return false;
-  };
+  import PostalAddress from "./components/Microformats/PostalAddress.svelte";
+  import StreetAddress from "./components/Microformats/StreetAddress.svelte";
+  import Suburb from "./components/Microformats/Suburb.svelte";
+  import Postcode from "./components/Microformats/Postcode.svelte";
 </script>
 
 <header />
 <main>
   <p>
-    Hello. I am a
-    <Weblink href={'http://www.google.com'} on:click={handleClick}>
-      link
-    </Weblink>
-    .
+    Search on
+    <Weblink href={'http://www.google.com'} className="linky">Google</Weblink>
+    ! It's amazing.
   </p>
-
-  <button on:click={handleClick}>HEllo</button>
+  <PostalAddress>
+    <StreetAddress>Level 712</StreetAddress>
+    <StreetAddress>102 Hightower Skyrise Avenue</StreetAddress>
+    <Suburb>Poshville</Suburb>
+    <Postcode>90210</Postcode>
+  </PostalAddress>
 </main>
 <footer />

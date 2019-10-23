@@ -1,0 +1,60 @@
+{
+  "GSuite": [
+    {
+      "title": "Gmail",
+      "href": "https://mail.google.com/a/theroyals.com.au"
+    },
+    {
+      "title": "Calendar",
+      "href": "https://www.google.com/calendar/hosted/theroyals.com.au"
+    },
+    {
+      "title": "Docs",
+      "href": "https://drive.google.com/a/theroyals.com.au"
+    }
+  ],
+  "Useful Things": [
+    {
+      "title": "Accountability",
+      "href": "https://www.accountabilityonesystem.com"
+    },
+    {
+      "title": "Royals Academy",
+      "href": "https://sites.google.com/theroyals.com.au/royalsacademy"
+    },
+    {
+      "title": "Email tech support",
+      "href": "mailto:support@systima.com.au"
+    }
+  ],
+  "Royals on the web": [
+    {
+      "title": "Website",
+      "href": "http://www.theroyals.com.au/"
+    },
+    {
+      "title": "Facebook",
+      "href": "https://www.facebook.com/wearetheroyals/"
+    },
+    {
+      "title": "Instagram",
+      "href": "https://www.instagram.com/theroyals/"
+    },
+    {
+      "title": "LinkedIn",
+      "href": "https://www.linkedin.com/company/the-royals/"
+    },
+    {
+      "title": "Twitter",
+      "href": "https://twitter.com/theroyals"
+    },
+    {
+      "title": "Twitter (Advance Party)",
+      "href": "https://twitter.com/RoyalsAdvParty"
+    },
+    {
+      "title": "Everybody Knows",
+      "href": "https://everybodyknows.com.au"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "offices": [
+    {
+      "title": "Melbourne",
+      "address": {
+        "street1": "Level 3",
+        "street2": "105-115 Dover Street",
+        "suburb": "Cremorne",
+        "state": "Victoria",
+        "postcode": "3121"
+      },
+      "contact": {
+        "phone": "+61 3 9429 7908",
+        "email": "concierge@theroyals.com.au"
+      }
+    },
+    {
+      "title": "Sydney",
+      "address": {
+        "street1": "Level 6",
+        "street2": "10-14 Waterloo Street",
+        "suburb": "Surry Hills",
+        "state": "NSW",
+        "postcode": "2010"
+      },
+      "contact": {
+        "phone": "+61 2 9280 1721",
+        "email": "concierge@theroyals.com.au"
+      }
+    }
+  ]
+}
